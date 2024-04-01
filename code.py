@@ -210,7 +210,8 @@ def main():
         the statistics of the results.
         """
         createdb(conn,logger)
-
+    
+        ## Problem 2 : Data Ingestion
     elif sys.argv[1] == "2":
 
         try:
@@ -220,6 +221,7 @@ def main():
             createdb(conn,logger)
         populateData(conn,logger)
 
+        ## Problem 3 : Data Analysis
     elif sys.argv[1] == "3":
         query = "use weatherdb2"
         try:
