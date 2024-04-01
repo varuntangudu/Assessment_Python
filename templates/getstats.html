@@ -1,0 +1,11 @@
+<form action="{{ url_for("get_weather_stats")}}" method="post">
+    <p> Station:
+    <select id=station_id" name="station_id">
+        {% for n in stations %}
+            <option value={{n}}> {{n}}</option>
+        {% endfor %}
+    </select></p>
+    <p>Filter Date:
+    <input type="date" id="date" name="date"></p>
+    <button type="submit">Submit</button>
+</form>

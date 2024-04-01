@@ -1,0 +1,115 @@
+INFO:__main__:Log Started: Weather Data Modeling and Analysis Project
+INFO:__main__:	 SQL Connection Initiated
+INFO:__main__:	 SQL Connnection was successful for weather data.
+INFO:__main__:Creating Database: weatherdb.sql
+INFO:__main__:Using Database: weatherdb.sql
+INFO:__main__:Creating create table weather_records
+INFO:__main__:Creating table station_results
+INFO:__main__:	 SQL Connection is closed now!
+INFO:__main__:Log Started: Weather Data Modeling and Analysis Project
+INFO:__main__:	 SQL Connection Initiated
+INFO:__main__:	 SQL Connnection was successful for weather data.
+INFO:__main__:Data Ingestion: started in Weather Project
+INFO:__main__:	2024-03-29 10:51:37.281993 : Starting Ingestion into MySQL from wx_data
+INFO:__main__:	Number of records ingested in weather_records table : 1729957
+INFO:__main__:	2024-03-29 10:59:51.296288 : Stopping Ingestion into MySQL from wx_data
+INFO:__main__:	 SQL Connection is closed now!
+INFO:__main__:Log Started: Weather Data Modeling and Analysis Project
+INFO:__main__:	 SQL Connection Initiated
+INFO:__main__:	 SQL Connnection was successful for weather data.
+INFO:__main__:Data Ingestion: started in Weather Project
+INFO:__main__:	2024-03-29 11:00:22.965155 : Starting Ingestion into MySQL from wx_data
+INFO:__main__:	Number of records ingested in weather_records table : 0
+INFO:__main__:	2024-03-29 11:03:03.533315 : Stopping Ingestion into MySQL from wx_data
+INFO:__main__:	 SQL Connection is closed now!
+INFO:__main__:Log Started: Weather Data Modeling and Analysis Project
+INFO:__main__:	 SQL Connection Initiated
+INFO:__main__:	 SQL Connnection was successful for weather data.
+INFO:__main__:Data Analysis Started.
+INFO:__main__:	Building dataframe by reading data from MySQL
+INFO:__main__:	Copying into new dataframe.
+INFO:__main__:	Adding anothor column 'year' into newdf
+INFO:__main__:	removing record_date column from newdf
+INFO:__main__:	Inserting result into station_records table.
+INFO:__main__:	Reading results from MySQL station_results table
+INFO:__main__:Log Started: Weather Data Modeling and Analysis Project
+INFO:__main__:	 SQL Connection Initiated
+INFO:__main__:	 SQL Connnection was successful for weather data.
+INFO:__main__:Data Analysis Started.
+INFO:__main__:	Building dataframe by reading data from MySQL
+INFO:__main__:	Copying into new dataframe.
+INFO:__main__:	Adding anothor column 'year' into newdf
+INFO:__main__:	removing record_date column from newdf
+INFO:__main__:	Inserting result into station_records table.
+INFO:__main__:	Reading results from MySQL station_results table
+INFO:__main__:	 SQL Connection is closed now!
+INFO:__main__:Log Started: Weather Data Modeling and Analysis Project
+INFO:__main__:	 SQL Connection Initiated
+INFO:__main__:	 SQL Connnection was successful for weather data.
+INFO:__main__:Creating Database: weatherdb.sql
+INFO:__main__:Error: weatherdb already exists
+INFO:__main__:Using Database: weatherdb.sql
+INFO:__main__:Creating create table weather_records
+INFO:__main__:Error: weather_records table already exists
+INFO:__main__:Creating table station_results
+INFO:__main__:Error: station_results table already exists
+INFO:__main__:	 SQL Connection is closed now!
+INFO:__main__:Log Started: Weather Data Modeling and Analysis Project
+INFO:__main__:	 SQL Connection Initiated
+INFO:__main__:	 SQL Connnection was successful for weather data.
+INFO:__main__:Data Ingestion: started in Weather Project
+INFO:__main__:	2024-03-29 11:35:19.646120 : Starting Ingestion into MySQL from wx_data
+INFO:__main__:	Number of records ingested in weather_records table : 0
+INFO:__main__:	2024-03-29 11:38:05.270034 : Stopping Ingestion into MySQL from wx_data
+INFO:__main__:	 SQL Connection is closed now!
+INFO:__main__:Log Started: Weather Data Modeling and Analysis Project
+INFO:__main__:	 SQL Connection Initiated
+INFO:__main__:Log Started: Weather Data Modeling and Analysis Project
+INFO:__main__:	 SQL Connection Initiated
+INFO:__main__:Log Started: Weather Data Modeling and Analysis Project
+INFO:__main__:	 SQL Connection Initiated
+INFO:__main__:Log Started: Weather Data Modeling and Analysis Project
+INFO:__main__:	 SQL Connection Initiated
+INFO:__main__:Log Started: Weather Data Modeling and Analysis Project
+INFO:__main__:	 SQL Connection Initiated
+INFO:__main__:Log Started: Weather Data Modeling and Analysis Project
+INFO:__main__:	 SQL Connection Initiated
+INFO:__main__:Log Started: Weather Data Modeling and Analysis Project
+INFO:__main__:	 SQL Connection Initiated
+INFO:__main__:	 SQL Connnection was successful for weather data.
+INFO:__main__:Log Started: Weather Data Modeling and Analysis Project
+INFO:__main__:	 SQL Connection Initiated
+INFO:__main__:	 SQL Connnection was successful for weather data.
+INFO:__main__:Creating Database: weatherdb.sql
+INFO:__main__:Error: weatherdb already exists
+INFO:__main__:Using Database: weatherdb.sql
+INFO:__main__:Log Started: Weather Data Modeling and Analysis Project
+INFO:__main__:	 SQL Connection Initiated
+INFO:__main__:	 SQL Connnection was successful for weather data.
+INFO:__main__:Creating Database: weatherdb2.sql
+INFO:__main__:Error: weatherdb2 already exists
+INFO:__main__:Using Database: weatherdb2.sql
+INFO:__main__:Creating create table weather_records
+INFO:__main__:Error: weather_records table already exists
+INFO:__main__:Creating table station_results
+INFO:__main__:Error: station_results table already exists
+INFO:__main__:	 SQL Connection is closed now!
+INFO:__main__:Log Started: Weather Data Modeling and Analysis Project
+INFO:__main__:	 SQL Connection Initiated
+INFO:__main__:	 SQL Connnection was successful for weather data.
+INFO:__main__:Data Ingestion: started in Weather Project
+INFO:__main__:	2024-03-29 13:55:51.697162 : Starting Ingestion into MySQL from wx_data
+INFO:__main__:	Number of records ingested in weather_records table : 1729957
+INFO:__main__:	2024-03-29 20:11:11.773470 : Stopping Ingestion into MySQL from wx_data
+INFO:__main__:	 SQL Connection is closed now!
+INFO:__main__:Log Started: Weather Data Modeling and Analysis Project
+INFO:__main__:	 SQL Connection Initiated
+INFO:__main__:	 SQL Connnection was successful for weather data.
+INFO:__main__:Data Analysis Started.
+INFO:__main__:	Building dataframe by reading data from MySQL
+INFO:__main__:	Copying into new dataframe.
+INFO:__main__:	Adding anothor column 'year' into newdf
+INFO:__main__:	removing record_date column from newdf
+INFO:__main__:	Inserting result into station_records table.
+INFO:__main__:	Reading results from MySQL station_results table
+INFO:__main__:	 SQL Connection is closed now!
